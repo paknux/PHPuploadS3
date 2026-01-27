@@ -4,7 +4,7 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP CRUD yang m
 
 ---
 
-## 🏗️ 1. Persiapan Infrastruktur AWS
+## I. Persiapan Infrastruktur AWS
 
 ### A. Membuat Instance EC2
 1. Login ke AWS Academy Learner Lab.
@@ -18,6 +18,7 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP CRUD yang m
 
 ### B. Membuat dan Konfigurasi S3 Bucket
 Jalankan perintah ini melalui terminal (setelah konfigurasi AWS CLI) untuk membuat bucket bernama `nugwebphps3`:
+Atau bisa juga dibuat dengan Web GUO Management Console seperti biasa
 
 ```bash
 # Membuka Public Access Block
@@ -31,7 +32,8 @@ aws s3api put-bucket-policy --bucket nugwebphps3 --policy '{
 ```
 
 
-### B. Membuat dan Konfigurasi S3 Bucket
+## II. Deploy App ke EC2
+
 ## 🛠 Langkah 1: Persiapan dan Instalasi Server
 Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache, PHP, dan dependensi lainnya:
 
@@ -55,4 +57,3 @@ sudo composer require aws/aws-sdk-php
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
 ```
-"# PHPuploadS3" 
