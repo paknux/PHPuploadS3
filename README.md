@@ -20,11 +20,13 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyim
 S3 Bucket dapat dibuat dengan Web GUO Management Console seperti biasa, atau jalankan perintah ini melalui terminal (setelah konfigurasi AWS CLI), atau AWS Clodshell untuk membuat bucket bernama `nugwebphps3`:
 
 
-```bash
 # Membuka Public Access Block
+```bash
 aws s3api put-public-access-block --bucket nugwebphps3 --public-access-block-configuration "BlockPublicAcls=false,IgnorePublicAcls=false,BlockPublicPolicy=false,RestrictPublicBuckets=false"
+```
 
 # Mengatur Policy agar file bisa diakses publik (Read Only)
+```bash
 aws s3api put-bucket-policy --bucket nugwebphps3 --policy '{
     "Version":"2012-10-17",
     "Statement":[{"Sid":"PublicReadGetObject","Effect":"Allow","Principal":"*","Action":"s3:GetObject","Resource":"arn:aws:s3:::nugwebphps3/*"}]
