@@ -1,6 +1,6 @@
-# Dokumentasi Deployment Aplikasi PHP CRUD & AWS S3
+# Aplikasi PHP CRUD yang menyimpan file (asset) di **AWS S3** menggunakan **EC2 Ubuntu 24.04** di lingkungan **AWS Academy**.
 
-Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP CRUD yang menyimpan file (asset) di **AWS S3** menggunakan **EC2 Ubuntu 24.04** di lingkungan **AWS Academy**.
+Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyimpan file (asset) di **AWS S3** menggunakan **EC2 Ubuntu 24.04** di lingkungan **AWS Academy**.
 
 ---
 
