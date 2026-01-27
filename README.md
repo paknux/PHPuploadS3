@@ -48,7 +48,7 @@ sudo apt install -y apache2 php php-cli php-curl php-xml php-mbstring libapache2
 
 
 # Install Composer secara global
-curl -sS [https://getcomposer.org/installer](https://getcomposer.org/installer) | php
+curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Install AWS SDK for PHP di direktori project
