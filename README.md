@@ -17,8 +17,8 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyim
 3. Hubungkan ke instance via SSH.
 
 ### B. Membuat dan Konfigurasi S3 Bucket
-Jalankan perintah ini melalui terminal (setelah konfigurasi AWS CLI) untuk membuat bucket bernama `nugwebphps3`:
-Atau bisa juga dibuat dengan Web GUO Management Console seperti biasa
+S3 Bucket dapat dibuat dengan Web GUO Management Console seperti biasa, atau jalankan perintah ini melalui terminal (setelah konfigurasi AWS CLI), atau AWS Clodshell untuk membuat bucket bernama `nugwebphps3`:
+
 
 ```bash
 # Membuka Public Access Block
