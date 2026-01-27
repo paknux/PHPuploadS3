@@ -28,10 +28,10 @@ aws s3api put-bucket-policy --bucket nugwebphps3 --policy '{
     "Version":"2012-10-17",
     "Statement":[{"Sid":"PublicReadGetObject","Effect":"Allow","Principal":"*","Action":"s3:GetObject","Resource":"arn:aws:s3:::nugwebphps3/*"}]
 }'
+```
 
 
-
-
+### B. Membuat dan Konfigurasi S3 Bucket
 ## 🛠 Langkah 1: Persiapan dan Instalasi Server
 Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache, PHP, dan dependensi lainnya:
 
@@ -54,5 +54,5 @@ sudo composer require aws/aws-sdk-php
 # Atur izin folder agar web server bisa menulis file
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
-
+```
 "# PHPuploadS3" 
