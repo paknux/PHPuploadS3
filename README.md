@@ -36,7 +36,7 @@ aws s3api put-bucket-policy --bucket nugwebphps3 --policy '{
 
 ## II. Deploy App ke EC2
 
-## 🛠 Langkah 1: Persiapan dan Instalasi Server
+## Langkah 1: Persiapan dan Instalasi Server
 Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache, PHP, dan dependensi lainnya:
 
 ```bash
@@ -59,3 +59,8 @@ sudo composer require aws/aws-sdk-php
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 755 /var/www/html
 ```
+
+
+## Langkah 2: Deploy Aplikasi
+Buat file config.php dan index.php, sesuaikan dengan nama bucket S3
+
