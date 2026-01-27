@@ -62,5 +62,5 @@ sudo chmod -R 755 /var/www/html
 
 
 ## Langkah 2: Deploy Aplikasi
-Buat file config.php dan index.php, sesuaikan dengan nama bucket S3
+Di dalam direktori /var/www/html buat file config.php dan index.php, sesuaikan dengan nama bucket S3
 
