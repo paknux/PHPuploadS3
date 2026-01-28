@@ -7,6 +7,8 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyim
 ## I. Persiapan Infrastruktur AWS
 
 ### A. Membuat Instance EC2
+Buat duklu SG yang sesuai
+
 1. Login ke AWS Academy Learner Lab.
 2. Launch Instance dengan spesifikasi:
    - **Nama:** `PHP-S3-Server`
