@@ -18,7 +18,7 @@ Buat dulu SG yang sesuai, ijinkan inbound rule port 22 dan 80 dari anywhere-IPv4
    - **Instance Type:** t2.micro (Free Tier).
    - **Key Pair:** Pilih atau buat baru.
    - **Security Group:** Izinkan **HTTP (80)** dan **SSH (22)**.
-   - Pastikan palai IAM Role
+   - Pastikan ubah IAM Role menjadi LabInstanceProfile dari menu Action > Security > Modify IAM Role
 3. Hubungkan ke instance via SSH.
 
 ### B. Membuat dan Konfigurasi S3 Bucket
