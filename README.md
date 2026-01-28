@@ -14,6 +14,7 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyim
    - **Instance Type:** t2.micro (Free Tier).
    - **Key Pair:** Pilih atau buat baru.
    - **Security Group:** Izinkan **HTTP (80)** dan **SSH (22)**.
+   - Pastikan palai IAM Role
 3. Hubungkan ke instance via SSH.
 
 ### B. Membuat dan Konfigurasi S3 Bucket
