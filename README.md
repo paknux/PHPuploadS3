@@ -63,6 +63,9 @@ sudo composer require aws/aws-sdk-php
 # Atur izin folder agar web server bisa menulis file
 sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 777 /var/www/html
+
+# Hapus index.html
+sudo rm /var/www/html/index.html
 ```
 
 
