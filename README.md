@@ -6,8 +6,10 @@ Project ini mendokumentasikan langkah-langkah mendeploy aplikasi PHP yang menyim
 
 ## I. Persiapan Infrastruktur AWS
 
+Buat dulu SG yang sesuai, ijinkan inbound rule port 22 dan 80 dari anywhere-IPv4 (0.0.0.0/0)
+
+
 ### A. Membuat Instance EC2
-Buat duklu SG yang sesuai
 
 1. Login ke AWS Academy Learner Lab.
 2. Launch Instance dengan spesifikasi:
