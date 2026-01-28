@@ -46,7 +46,7 @@ Jalankan perintah berikut pada terminal EC2 Ubuntu 24.04 untuk menginstal Apache
 
 ```bash
 # Update sistem
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 
 # Install Apache, PHP, dan ekstensi yang diperlukan
 sudo apt install -y apache2 php php-cli php-curl php-xml php-mbstring libapache2-mod-php unzip
